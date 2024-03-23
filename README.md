@@ -2,7 +2,7 @@
 
 Download this:
 ```
-bash -c "$(wget -qO - 'https://raw.githubusercontent.com/aryobrokolly/tailscale/master/install.sh')"
+bash -c "$(wget -qO - 'https://raw.githubusercontent.com/titis69/remot_stb/master/install.sh')"
 ```
 
 1. Install the prerequisites for wget and tailscale:
