@@ -2,9 +2,9 @@
 
 Download this:
 ```
-1. update openwrt
-```
 opkg update
+```
+1. update openwrt
 ```
 opkg update && opkg install libustream-openssl ca-bundle kmod-tun
 ```
