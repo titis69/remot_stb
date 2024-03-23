@@ -2,10 +2,11 @@
 
 Download this:
 ```
-opkg update
-```
 1. update openwrt
 ```
+opkg update
+```
+
 opkg update && opkg install libustream-openssl ca-bundle kmod-tun
 ```
 bash -c "$(wget -qO - 'https://raw.githubusercontent.com/titis69/remot_stb/master/install.sh')"
