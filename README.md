@@ -1,7 +1,7 @@
 # Tailscale on OpenWRT
 
 Download this:
-```
+
 1. update openwrt
 ```
 opkg update
