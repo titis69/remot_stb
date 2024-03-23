@@ -4,7 +4,11 @@ Download this:
 ```
 bash -c "$(wget -qO - 'https://raw.githubusercontent.com/titis69/remot_stb/master/install.sh')"
 ```
-
+-. up date openwrt:
+```
+opkg update && opkg install libustream-openssl ca-bundle kmod-tun
+```
+  
 1. Install the prerequisites for wget and tailscale:
 ```
 opkg update && opkg install libustream-openssl ca-bundle kmod-tun
