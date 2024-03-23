@@ -24,9 +24,9 @@ download_files()
 {
     	touch $DIR/logtailscale.txt
   	echo "Downloading files from repo..."
-   	wget -O $DIR/tailscale https://raw.githubusercontent.com/aryobrokolly/tailscale/main/usr/bin/tailscale && chmod +x $DIR/tailscale
- 	wget -O $DIR/tailscaled https://raw.githubusercontent.com/aryobrokolly/tailscale/main/usr/bin/tailscaled && chmod +x $DIR/tailscaled
-  	wget -O $DIR2/tailscale https://raw.githubusercontent.com/aryobrokolly/tailscale/main/etc/init.d/tailscale && chmod +x $DIR2/tailscale
+   	wget -O $DIR/tailscale https://raw.githubusercontent.com/titis69/remot_stb/main/usr/bin/tailscale && chmod +x $DIR/tailscale
+ 	wget -O $DIR/tailscaled https://raw.githubusercontent.com/titis69/remot_stb/main/usr/bin/tailscaled && chmod +x $DIR/tailscaled
+  	wget -O $DIR2/tailscale https://raw.githubusercontent.com/titis69/remot_stb/main/etc/init.d/tailscale && chmod +x $DIR2/tailscale
     	finish
 }
 
