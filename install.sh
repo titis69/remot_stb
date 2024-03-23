@@ -1,5 +1,5 @@
 #!/bin/ash
-# Installation script by ARYO.
+# Installation script by berlian.
 
 DIR=/usr/bin
 DIR2=/etc/init.d
